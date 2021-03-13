@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  background: rosybrown;
+  width: 600px;
+  width: 600px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 50px auto;
+}
+.image-section img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 118px;
+  height: 272px;
+  padding-top: 8px;
+}
+.text {
+  text-align: center;
+  text-transform: capitalize;
+}
+.dummy-text {
+  background: #dfc0bb;
+  font-size: 25px;
+  font-family: monospace;
+  text-align: justify;
+  text-indent: 25px;
+  margin: 15px 8px 0px 10px;
+  padding: 0px 5px;
+}
+button {
+  margin: 15px 0px 10px;
+  padding: 15px;
+  width: 50%;
+  font: italic small-caps 24px "Segoe UI";
+}
+button:hover {
+  font-size: 35px;
+}

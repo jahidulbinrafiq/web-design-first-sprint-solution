@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+#main {
+  background: cadetblue;
+  width: 800px;
+  height: 600px;
+}
+.bordersection {
+  background: rosybrown;
+  width: 600px;
+  height: 500px;
+}
+.paddingsection {
+  background: tomato;
+  width: 500px;
+  height: 400px;
+}
+.contentsection {
+  background: blanchedalmond;
+  width: 400px;
+  height: 300px;
+}
