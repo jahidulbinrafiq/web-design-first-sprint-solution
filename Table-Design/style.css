@@ -1,0 +1,41 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 25px;
+}
+
+th,
+td {
+    height: 50px;
+    font-size: 23px;
+    background: #faf5f5;
+}
+
+h1,
+td,
+th {
+    text-align: center;
+    font-style: italic;
+}
+
+h1 {
+    margin: 50px;
+    color: cadetblue;
+}
+
+.selected {
+    background: #fabfbf;
+    border-radius: 8%;
+    box-shadow: -3px -2px grey;
+}
+
+span {
+    border: 5px dotted #566a66;
+    padding: 14px;
+}
