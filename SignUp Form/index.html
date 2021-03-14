@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <form action="" autocomplete="off" method="post">
+            <h2 class="text">SignUp Form</h2>
+            <p class="text">Please fill this form to create an account</p>
+            <hr class="hr-tag">
+            <input 
+             type="text" name="fname" id="fname" placeholder="First Name" size="20"required
+             >
+            <input 
+              type="text" name="lname" id="lname" placeholder="Last Name" size="20" required
+            >
+            <br><br>
+            <input 
+             type="email" name="email" id="email" placeholder="example@example.com" required
+            >
+            <br><br>
+            <input
+             type="url" name="url" id="url" placeholder="http://example.com" required
+            >
+            <br><br>
+            <input 
+             type="password" name="password" id="password" placeholder="password" required
+            >
+            <br><br>
+            <input 
+             type="password" name="password1" id="password1" placeholder="confirm password" required
+            >
+            <br><br>
+            <input type="checkbox" name="agree" id="agree" required>
+            <label for="agree">I accept 
+                <span class="terms">terms of service & condition</span>
+            </label>
+            <br><br>
+            <input type="submit" value="SignUp" >
+        </form>
+        <p class="login">Already have an account? <span class="another-text">Login Here</span></p>
+    </div>
+</body>
+</html>

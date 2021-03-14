@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:cadetblue;
+}
+#main {
+  margin: 50px 286px;
+  background: whitesmoke;
+  text-align: center;
+  max-width: 980px;
+}
+.text{
+  padding: 5px;
+}
+.hr-tag{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 23px;
+  margin-top: 12px;
+  background: #92a497;
+  height: 5px;
+}
+form{
+  
+}
+input[type="text"]{
+  width: 30%;
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="url"]{
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  border: none;
+  border-bottom: 1px solid #473e3e;
+  box-shadow: 4px 6px #b1cbe6;
+}
+input[type="password"],input[type="email"],input[type="url"]{
+  width: 50%;
+}
+.terms{
+  color: #ec1717;
+  font-size: 20px;
+  font-style: italic;
+}
+input[type="submit"]{
+  padding: 10px;
+  border-radius: 58px 113px;
+  border: none;
+  margin-bottom: 18px;
+  color: whitesmoke;
+  background: tomato;
+  font-size: 25px;
+}
+.another-text{
+  text-decoration: underline;
+  color: blueviolet;
+  font-size: 22px;
+}
+.login{
+  padding-bottom: 21px;
+  font-size: 19px;
+  font-style: italic;
+  font-variant: small-caps;
+}
