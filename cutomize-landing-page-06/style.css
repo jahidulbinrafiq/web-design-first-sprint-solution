@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-height: 980px;
+}
+
+.intro {
+    background-image: url(./img/biography-bg.png);
+    overflow: hidden;
+}
+
+.half-width {
+    float: left;
+    width: 44%;
+    margin-left: 50px;
+    padding: 16px;
+}
+
+.half-width img {
+    width: 76%;
+    border-radius: 52px;
+    height: 389px;
+    margin: auto;
+}
+
+.intro-heding {
+    font-size: 46px;
+    text-transform: capitalize;
+    box-shadow: 2px;
+    color: #c96078;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 41px;
+    text-transform: capitalize;
+    padding-top: 23px;
+}
+
+.intro-text {
+    font-size: 35px;
+    color: cadetblue;
+    font-weight: bold;
+    padding-bottom: 23px;
+    padding-top: 21px;
+    padding: 21px 0 23px 0px;
+}
+
+button {
+    float: left;
+    text-align: center;
+    font-size: 29px;
+    border-radius: 0% 100% 0% 100% / 73% 23% 77% 27%;
+    background: #f44336;
+    outline: none;
+    padding: 14px;
+    margin: 0px 0px 20px 230px;
+}
+
+button:hover {
+    font-size: 30px;
+    box-shadow: 5px 5px darkgrey;
+    background: cornflowerblue;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both
+}
